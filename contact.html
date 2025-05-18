@@ -38,7 +38,14 @@
     }
   </style>
 </head>
-<body>
+<!-- Add these two lines to load the Firebase libraries -->
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-database-compat.js"></script>
+
+<!-- Link to your custom Firebase setup file (we'll create this next!) -->
+<script src="./firebase-setup.js"></script>
+
+  <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
